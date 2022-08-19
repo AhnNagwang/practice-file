@@ -1,0 +1,28 @@
+body {
+  font-family: 'Noto Sans KR',sans-serif;
+}
+
+h1 {
+  color: red;
+  font-size: 72px;
+} 
+
+p {
+  font-size: 25px;
+}
+.blue-text {
+  color: blue;
+  font-size: 25px;
+}
+
+ul li {
+  color: pink;
+  font-size: 25px;
+}
+
+#green-text {
+  color: green;
+}
+.large-text {
+  font-size: 50px;
+}
