@@ -1,0 +1,12 @@
+/* 스페이스(): 자손선택자 (하위선택자)
+> : 자식선택자  콤마(,) : 연결선택자(그룹선택자) */
+
+.start div p,
+.end {
+  color: red;
+  font-size: 36px;
+}
+
+.end {
+  text-transform: uppercase;
+}
