@@ -1,0 +1,14 @@
+section.about {
+  background-color: crimson;
+  color: #fff;
+  padding: 25px;
+}
+
+/* 미디어 쿼리 */
+
+@media (max-width: 768px) {
+  section.about {
+    background-color: yellowgreen;
+    color: #000;
+  }
+}
