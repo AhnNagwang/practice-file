@@ -1,0 +1,7 @@
+/* :checked 가상클래스 */
+
+input[type=radio]:checked + span {
+  color: red;
+  font-weight: bold;
+}
+
