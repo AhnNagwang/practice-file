@@ -1,0 +1,15 @@
+body {
+  font-size: 40px;
+}
+
+/* ul + p {
+  color: red;
+} */
+
+/* ul ~ div p {
+  color: red;
+} */
+
+ul ~ div p + div {
+  color : red;
+}
