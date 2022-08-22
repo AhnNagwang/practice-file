@@ -1,0 +1,48 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none; 
+}
+body {
+  margin: 0;
+}
+
+[class*=inner] {
+  border: 1px solid #000;
+  width: 1200px;
+  margin: auto;
+}
+.cotainer {
+
+}
+
+header {
+  background-color: #ddd;
+  height: 100px;
+}
+
+/* .header-inner,
+.welcome-inner,
+.about-inner,
+.portfolio-inner {
+  border: 1px solid #000;
+  width: 1200px;
+  margin: auto;
+} */
+
+.welcome {
+
+}
+
+
+
+.about {
+
+}
+
+
+
+.portfolio {
+
+}
+
