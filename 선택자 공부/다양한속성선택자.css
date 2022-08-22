@@ -1,0 +1,18 @@
+/* .frame h1[class=text] {
+  color: red; */
+
+  /* [class~=text] {
+    color: red;
+  } */
+
+  /* [class^=text] {
+    color: red;
+  } */
+
+/* [class$=text] {
+  color: red;
+} */
+
+[class*=text] {
+  color: red;
+}
