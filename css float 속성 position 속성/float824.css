@@ -1,0 +1,22 @@
+header {
+  background-color: #ccc;
+  padding: 20px; 
+}
+header nav {
+  background-color: pink;
+  width: 900px;
+  margin: auto;
+}  
+header nav div {
+  
+  height: 50px;
+  background-color: yellowgreen;
+}
+
+header nav .logo {
+  float: left;
+}
+
+header nav .menu {
+  float: right;
+}

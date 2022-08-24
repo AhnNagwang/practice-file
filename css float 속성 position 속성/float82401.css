@@ -1,0 +1,32 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+.portfolio {
+  background-color: #ddd;
+  padding: 15px; 
+}
+
+.portfolio .items {
+  background-color: yellowgreen;
+  width: 1280px;
+  margin: auto;
+  border: 5px solid #000;
+  box-sizing: content-box;
+  /* 1st */
+  /* height: 300px; */
+  /* 2nd */
+  overflow: hidden;
+
+}
+
+.portfolio .items .item{
+  border: 5px solid red;
+  float: left;
+  height: 300px;
+  width: calc(1280px / 4);
+}
+
