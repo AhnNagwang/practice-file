@@ -1,0 +1,41 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  /* height: 100%; */
+}
+
+
+body {
+  margin: 0;
+  /* height: 200%;  */
+  height: 200vh;
+}
+/* 모든요소는 position: absolute 또는 fixed를 주면 
+   디스플레이 속성이 인라인블록변경 */
+header {
+  /* position: fixed;
+  width: 100%; */
+  height: 200vh;
+}
+
+header .banner {
+  height: 100px;
+  background-color: yellowgreen;                     
+}
+
+header nav {
+  height: 100px;
+  background-color: crimson;
+  position: sticky;
+  top:0;
+}
+
+.gototop {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+}
