@@ -1,0 +1,100 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  height: 200vh;
+}
+
+.parent {
+  width: 600px;
+  height: 400px;
+  border: 5px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent div[class*=inside] {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}
+
+.parent div[class*=outside] {
+  background-color: royalblue;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}
+
+.parent .inside1 {
+  top: 0;
+  left: 0;
+}
+
+.parent .inside2 {
+  top: 0;
+  right: 0;
+}
+
+.parent .inside3 {
+  bottom: 0;
+  right: 0;
+}
+
+.parent .inside4 {
+  bottom: 0;
+  left: 0;
+ 
+}
+
+.parent .inside5 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent .outside1 {
+  top: 0;
+  right: 100%; 
+}
+
+.parent .outside2 {
+  left: 0;
+  bottom: 100%;
+}
+
+.parent .outside3 {
+  right: 0;
+  bottom: 100%;
+}
+
+.parent .outside4 {
+  top: 0;
+  left: 100%;
+}
+
+.parent .outside5 {
+  bottom: 0;
+  left: 100%;
+}
+
+.parent .outside6 {
+  right: 0;
+  top: 100%;
+}
+
+.parent .outside7 {
+  left: 0;
+  top: 100%;
+}
+
+.parent .outside8 {
+  bottom: 0;
+  right: 100% ;
+}
