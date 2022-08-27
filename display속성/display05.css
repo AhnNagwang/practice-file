@@ -1,0 +1,24 @@
+.parent div {
+  border: 1px solid #000;
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.parent .child1 {
+  background-color: skyblue;
+}
+.parent .child2 {
+  background-color: gold;
+  /* display: none; */
+  /* opacity: 0; */
+  visibility: hidden;
+}
+.parent .child3 {
+  background-color: gray;
+}
