@@ -1,0 +1,40 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+ul li {
+  border: 1px solid #000;
+  float: left;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+
+ul li a {
+
+}
+
+div {
+
+}
+
+div a { 
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
