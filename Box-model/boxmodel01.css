@@ -1,0 +1,40 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* span,
+div,
+button {
+  border: 1px solid #000;
+} */
+
+:root {
+  --width: 800px;
+}
+
+.frame {
+  /* border: 5px solid #000; */
+  width: var(--width);
+  overflow: hidden;
+}
+
+.frame .item {
+  border: 5px solid red;
+  height: 300px;
+  float: left;
+  width: calc(var(--width)/ 3);
+}
+
+.frame .item .item1 {
+
+}
+
+.frame .item .item2 {
+
+}
+
+.frame .item .item3 {
+
+}
