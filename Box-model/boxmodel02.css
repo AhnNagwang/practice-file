@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+.container {
+
+}
+
+.container .about {
+  border: 1px solid #000;
+}
+
+.container .about h1 {
+  text-align: center;
+}
+
+.container .about .inner {
+  border: 1px solid red;
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container .about .inner div {
+  border: 1px solid blue;
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    background-color: #ddd;
+  }
+  .container .about .inner div {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
