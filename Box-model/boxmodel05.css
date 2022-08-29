@@ -1,0 +1,16 @@
+.margin-padding-frame {
+  border: 5px solid #000;
+}
+
+.margin-padding-frame .item {
+  border: 5px solid red;
+  height: 100px;
+  padding: 30px;
+  margin: 50px;
+  display: inline-block;
+  
+}
+
+.margin-padding-frame .item2 {
+  /* margin-top: 60px; */
+}

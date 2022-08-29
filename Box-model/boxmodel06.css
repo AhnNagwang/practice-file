@@ -1,0 +1,11 @@
+.parent {
+  border: 1px solid #000;
+  display: inline-block
+}
+
+.parent .child {
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+  margin: 25px 50px 75px 100px;
+}
