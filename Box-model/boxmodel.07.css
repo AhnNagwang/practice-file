@@ -1,6 +1,47 @@
-.bdrs-frame {
-  border: 5px solid #000;
-  width: 500px;
-  height: 500px;
-  border-radius: 50px 25px 10px 5px;
+.bdrs-practice {
+
+}
+
+.bdrs-practice div {
+  border: 10px solid tomato;
+  background-color: royalblue;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.bdrs-practice .box1 {
+  border-radius: 25px;
+}
+
+.bdrs-practice .box2 {
+  border-radius: 50px;
+}
+
+.bdrs-practice .box3 {
+  border-radius: 50%;
+}
+
+.bdrs-practice .box4 {
+  border-radius: 50px 0 50px 0;
+}
+
+.bdrs-practice .box5 {
+  border-radius: 100% 0 0 0;
+}
+
+.bdrs-practice .box6 {
+  border-radius: 50% 50% 50% 0;
+}
+
+.bdrs-practice .box7 {
+  border-radius: 100% 0 100% 0;
+}
+
+.bdrs-practice .box8 {
+  border-radius: 50% 50% 0 0;
 }
