@@ -1,0 +1,8 @@
+.outline-practice {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #000;
+  /* outline: 10px solid red;
+  outline-offset: -20px; */
+  outline: thick double skyblue;
+}
