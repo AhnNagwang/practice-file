@@ -1,0 +1,42 @@
+.crew {
+  border-collapse: collapse;
+  width: 600px;
+  table-layout: fixed;
+}
+
+.crew td,
+.crew th {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 5px;
+}
+
+.crew th {
+  background-color: #222;
+  color: #fff;
+  border: none;
+}
+.crew tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.crew tr:last-child {
+  border: none;
+}
+.crew caption {
+  /* caption-side: bottom; */
+  /* text-align: right; */
+  font-size: 26px;
+  /* font-style: italic;
+  border: 1px solid red; */
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.crew caption span:first-child {
+  float: left;
+}
+
+.crew caption span:last-child {
+  float: right;
+}
