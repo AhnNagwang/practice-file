@@ -1,0 +1,20 @@
+.frame a {
+  text-decoration: none;
+  display: block
+}
+
+.frame a:link {
+  color: #000;
+}
+
+.frame a:visited {
+  color: green;
+}
+
+.frame a:hover {
+  color: blue;
+}
+
+.frame a:active {
+  color: red;
+}
