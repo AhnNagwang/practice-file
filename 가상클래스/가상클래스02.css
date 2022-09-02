@@ -1,0 +1,31 @@
+.btn {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: capitalize;
+  color: #fff;
+  background-color: #00a8ff;
+  width:140px;
+  display: inline-block;
+  text-align: center;
+  transition: 0.5s;
+}
+.btn:hover {
+  /* opacity: 0.7; */
+  background-color: #000;
+}
+.success {
+  background-color: #4cd137;
+}
+
+.warning {
+  background-color: #fbc531;
+}
+
+.error {
+  background-color: #ee5A24;
+}
+
+.critical-error {
+  background-color: #EA2027;
+}
