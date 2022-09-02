@@ -1,0 +1,30 @@
+.download {
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #00d2d3;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+  transition: 0.35s;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+.download:hover {
+  background-color: #01a3a4;
+}
+
+.download .material-symbols-outlined {
+  transform: translate(-15px, 2px);
+  opacity: 0;
+  transition: 0.35s;
+}
+
+.download:hover .material-symbols-outlined {
+  opacity: 1;
+  transform: translate(-5px, 1px);
+}
+
+.download:active {
+  transform: scale(0.7);
+}
