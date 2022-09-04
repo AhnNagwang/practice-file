@@ -1,0 +1,30 @@
+.dropdown {
+  /* border: 1px solid #000; */
+  width: 150px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown .dropdown-btn {
+  width: inherit;
+  background-color: #3e8e41;
+  border: none;
+  color: #fff;
+  padding: 7px;
+}
+.dropdown .dropdown-content {
+  display: none;
+  box-shadow: 0 0 5px lightgray;
+}
+
+.dropdown .dropdown-content a {
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.dropdown .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,60 @@
+.tour-item {
+  border: 1px solid #000;
+  width: 400px;
+  position: relative;
+}
+
+.tour-item .tour-title {
+  background-color: crimson;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.tour-item .tour-content {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.11);
+  padding: 15px;
+  /* display: none; */
+  opacity: 0;
+  transition: 0.35s;
+  position: absolute;
+}
+
+.tour-item .tour-photo {
+  position: relative;
+}
+
+
+
+.tour-item .tour-photo img {
+  width: 100%;
+  display: block;
+}
+
+.tour-item .tour-photo a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 10px 0 0 0;
+  transition: 0.35s;
+}
+
+.tour-item .tour-photo a:hover {
+  background-color: crimson;
+  transform: translateX(10px);
+}
+.tour-photo a span {
+  display:inline-block;
+}
+.tour-item .tour-photo a:hover span {
+  transform: translateX(5px);
+}
+
+.tour-item:hover .tour-content {
+  /* display: block; */
+  opacity: 1;
+}
