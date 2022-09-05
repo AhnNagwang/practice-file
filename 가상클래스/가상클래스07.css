@@ -1,0 +1,11 @@
+.basic {
+
+}
+
+.basic li:nth-child(odd) {
+  color: red;
+}
+
+.basic li:nth-child(even) {
+  color: blue;
+}
