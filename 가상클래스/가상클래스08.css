@@ -1,0 +1,33 @@
+
+.items {
+ display: flex;
+  gap: 10px;
+  
+}
+
+.items .item {
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+.item a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  
+  padding: 5px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.item:nth-child(1) a {
+  background-color: limegreen;
+}
+
+.item:nth-child(2) a {
+  background-color: crimson;
+}
+.item:nth-child(3) a {
+  background-color: royalblue;
+}

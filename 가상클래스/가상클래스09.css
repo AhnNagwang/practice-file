@@ -1,0 +1,30 @@
+/* div p:first-child {
+  background-color: crimson;
+  color: #fff;
+}
+
+div p:last-child {
+  color: #fff;
+  background-color: #000;
+} */
+
+/* .hollys li {
+  color: lime;
+
+}
+
+.hollys li:first-child {
+  color: crimson;
+}
+
+.hollys li:last-child {
+  color: blue;
+} */
+
+.frame p:nth-child(1) {
+  color: crimson;
+}
+
+.frame p:nth-of-type(1) {
+  color: crimson;
+}
