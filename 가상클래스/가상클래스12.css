@@ -1,0 +1,8 @@
+.skills {
+  list-style: none;
+}
+
+.skills li::before {
+  content: '-';
+  margin-right: 5px;
+}

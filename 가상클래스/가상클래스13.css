@@ -1,0 +1,16 @@
+.football {
+  list-style: none;
+  padding: 0;
+}
+
+.football li {
+
+}
+
+.football li::before {
+  content: '\26BD';
+  margin-right: 5px;
+  font-size: 12px;
+  transform: translateY(-2px);
+  display: inline-block;
+}
