@@ -1,0 +1,20 @@
+.headline {
+
+}
+
+.headline::before {
+  content:'#00';
+  color: crimson;
+  margin-right: 5px;
+}
+
+.headline::after {
+  content:'#01';
+  background-color: limegreen;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 0 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
