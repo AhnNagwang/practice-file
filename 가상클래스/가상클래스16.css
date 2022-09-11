@@ -1,0 +1,29 @@
+.section-header {
+  text-align: center;
+}
+
+.section-header h3 {
+  color: #f37268;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.section-header h1 {
+  font-weight: normal;
+}
+
+.section-header h1 span {
+  border: 1px solid #000;
+  position: relative;
+}
+
+.section-header h1 span:before {
+  content: '';
+  background: url() no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
