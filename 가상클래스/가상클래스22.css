@@ -1,0 +1,17 @@
+.index-links {
+  counter-reset: index;
+  line-height: 1.8em;
+}
+
+.index-links a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.index-links a:before {
+  counter-increment: index;
+  content: '섹션.' counter(index) '[필수이론] - ';
+  /* color: crimson; */
+  font-weight: bold;
+}
