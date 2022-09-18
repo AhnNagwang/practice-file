@@ -13,7 +13,8 @@ body {
   text-align: center;
   color: #fff;
   text-decoration: none;
-  position: relative; 
+  position: relative;
+  overflow: hidden; 
 }
 
 .cool-btn:before {
@@ -28,7 +29,7 @@ body {
 }
 
 .cool-btn:after {
-  content:attr(data-link);
+  content:attr(data-event);
   background-color: royalblue;
   position: absolute;
   width: 100%;
@@ -41,3 +42,8 @@ body {
 .cool-btn:hover:before {
   top: -100%;
 }
+
+.cool-btn:hover:after {
+  top: 0;
+}
+
