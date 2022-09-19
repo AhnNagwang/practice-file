@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="가상클래스24.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 필수 폼 가상클래스, 로그인 폼 css 디자인 -->
+  <form>
+    <div class="login">
+      <div class="field">
+        <b>아이디</b><input type="text" placeholder="아이디 입력">
+      </div>
+      <div class="field">
+        <b>이메일</b><input type="email" placeholder="이메일 입력">
+      </div>
+      <div class="field">
+        <b>비밀번호</b><input type="password" placeholder="비밀번호 입력">
+      </div>
+      <div class="field">
+        <b>하고싶은말</b><textarea></textarea>
+      </div>
+      <div class="field user-check">
+        <input type="checkbox" checked> 이벤트 메일 수신에 동의합니다.
+      </div>
+      <div class="field user-check">
+        개인정보 처리방침 약관 동의
+        <input type="radio" name="agree">동의함 <input type="radio" name="agree">동의안함
+      </div>
+      <button>회원가입 하기</button>
+    </div>
+  </form>
+</body>
+</html>
