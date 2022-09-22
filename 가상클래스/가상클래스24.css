@@ -107,3 +107,43 @@ body {
   opacity: 0;
   visibility: hidden;
 }
+
+.login .field input[type=checkbox] {
+  display: none;
+}
+.login .field input[type=checkbox] + em {
+  /* border: 1px solid #000; */
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  background: url(images/checkbox-03.png) no-repeat;
+  transform: translateY(3px);
+
+}
+
+.login .field input[type=checkbox]:checked + em {
+  background-position: right;
+}
+
+.login .field input[name=agree] {
+  display: none;
+}
+
+.login .field input[name=agree] + em {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  background: url(images/radio-01.png) no-repeat;
+  background-position: left;
+  transform: translateY(3px);
+}
+
+.login .field input[name=agree]:checked + em {
+  background-position: right;
+}
+
+.login .field input[name=agree]:checked + em + span {
+  color: crimson;
+}
