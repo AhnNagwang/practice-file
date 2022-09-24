@@ -1,0 +1,34 @@
+/* .frame {
+  border: 5px solid #000;
+  width: 300px;
+  height: 500px;
+  background: url(헝가리.jpg) no-repeat bottom right;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 205, 50, 0.5);
+  background: linear-gradient(to right bottom, limegreen, transparent);
+}
+
+.frame h1 {
+  font-size: 3em;
+  margin: 0;
+  position: relative;
+} */
+
+.frame {
+  border: 5px solid #000;
+  width: 700px;
+  height: 500px;
+}
