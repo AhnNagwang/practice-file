@@ -1,0 +1,36 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --primary: #3498db;
+  --confirm: #2ecc71;
+  --warning: #f39c12;
+  --critical-warning: #e74c3c;
+}
+
+.buttons .btn {
+  width: 150px;
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #fff;
+}
+
+.buttons .primary {
+  background-color: var(--primary);
+}
+
+.buttons .confirm {
+  background-color: var(--confirm);
+}
+
+.buttons .warning {
+  background-color: var(--warning);
+}
+
+.buttons .critical-warning {
+  background-color: var(--critical-warning);
+}
