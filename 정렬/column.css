@@ -1,0 +1,25 @@
+.frame {
+  border: 1px solid #000;
+  width: 800px;
+  margin: auto;
+  column-count: 3;
+  column-gap: 0;
+}
+
+.frame div {
+  border: 2px solid red;
+  height: 200px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .frame {
+    width: 100%;
+    column-count: 2;
+  }
+}
+@media (max-width: 767px) {
+  .frame {
+    width: 100%;
+    column-count: 1;
+  }
+}
