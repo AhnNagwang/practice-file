@@ -1,0 +1,44 @@
+/* img {
+  filter: blur(5px);
+  filter: brightness(150%);
+  filter: contrast(200%);
+  filter: drop-shadow(0 0 20px crimson);
+  filter: grayscale(100%);
+  filter: hue-rotate(90deg);
+  filter: invert(100%);
+  filter: opacity(50%);
+  filter: saturate(500%);
+  filter: sepia(100%);
+} */
+
+/* img {
+  filter: brightness(0) saturate(100%) 
+  invert(79%) sepia(86%) saturate(7491%) hue-rotate(9deg) 
+  brightness(103%) contrast(99%);
+} */
+
+.field input {
+  display: block;
+  margin: 10px 0;
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 3px;
+  padding-left: 35px;
+}
+
+.field input:focus {
+  border: 1px solid limegreen;
+}
+
+.field input[type=text] {
+  background: url(images/icon-user.svg) no-repeat center left 5px;
+}
+
+.field input[type=email] {
+  background: url(images/icon-email.svg) no-repeat center left 5px;
+}
+
+.field input[type=password] {
+  background: url(images/icon-lock.svg) no-repeat center left 5px;
+}
