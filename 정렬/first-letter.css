@@ -1,0 +1,31 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    background-color: #000;
+    color: #fff;
+  }
+
+.frame {
+  width: 800px;
+  border: 1px solid #fff;
+  margin: auto;
+  padding: 1em;
+}
+
+.frame h1 {
+  text-align: center;
+}
+
+.frame .greeting::first-letter {
+  color: crimson;
+  font-size: 2.8em;
+  margin-right: 5px;
+  float: left;
+  line-height: 1;
+}
+
+.frame .item p span {
+  display: list-item;
+  margin-left: 25px;
+  list-style: circle;
+}
